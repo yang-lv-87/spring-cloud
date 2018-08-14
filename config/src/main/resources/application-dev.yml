@@ -5,7 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/yang-lv-87/spring-cloud.git
+          searchPaths: springcloudconfig/config-repo
+          username: yang-lv-87
+          password: 123yang456yang
     
 server:
   port: 7001
