@@ -9,6 +9,7 @@ spring:
           searchPaths: springcloudconfig/config-repo
           username: yang-lv-87
           password: 123yang456yang
+      label: master
     
 server:
   port: 7001
