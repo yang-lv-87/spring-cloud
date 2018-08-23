@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: trace-6
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456
+server:
+  port: 9106
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka

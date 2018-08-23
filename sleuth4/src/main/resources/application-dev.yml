@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: trace-4
+  zipkin:
+    base-url: http://localhost:9411/   #zipkin有数据
+server:
+  port: 9104
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka
