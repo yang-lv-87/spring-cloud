@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: zipkin-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456
+  sleuth:
+    enabled: false
+  datasource:
+    schema: classpath:/mysql.sql
+    url: jdbc:mysql://localhost:3306/zipkin1
+    username: root
+    password: 123456
+    continue-on-error: true
+    initialize: true
+server:
+  port: 9411
+zipkin:
+  storage:
+    type: mysql
